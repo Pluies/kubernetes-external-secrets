@@ -1,6 +1,6 @@
 'use strict'
 
-const vault = require('node-vault')
+const vault = require('@florentdelannoyynap/node-vault')
 const kube = require('kubernetes-client')
 const KubeRequest = require('kubernetes-client/backends/request')
 const pino = require('pino')
